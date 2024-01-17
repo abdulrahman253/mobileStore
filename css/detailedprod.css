@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.product-page {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative; 
+}
+
+.product-page .image-container {
+    position: relative;
+}
+
+.product-page .product-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-page .arrow-button {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.product-page .arrow-button.left {
+    left: 0;
+}
+
+.product-page .arrow-button.right {
+    right: 0;
+}

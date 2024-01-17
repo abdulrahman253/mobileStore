@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.title {
+  background-color: black;
+  left: 60px;
+  padding: 70px;
+  position: sticky;
+}
+
+.logo {
+  position: absolute;
+  width: 50%;
+  left: 1%;
+  top: 0px;
+  inline-size: 180px;
+}
+
+ul {
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  list-style-type: none;
+  padding: 9px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #fd9b33;
+  text-align: center;
+  padding: 19px 50px;
+  font-size: 4vh;
+  text-decoration: none;
+}
+
+li .aa:hover {
+  background-color: #594a41;
+  border: #fd9b33 solid 5px;
+  border-radius: 25px;
+}
+
+.sign {
+  position: relative;
+  left: 300px;
+  border: 3px solid;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+.sign a:hover {
+  border: 1px solid;
+  background-color: aliceblue;
+  border: 2px solid;
+  border-radius: 25px;
+}
+body {
+  background-color: #4e657a;
+}
+
+h2 {
+  position: relative;
+  right: 300px;
+  bottom: 70px;
+  color: #f5a623;
+  font-size: 4vh;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  width: 1000px;
+  height: 800px;
+  margin: 100px 500px;
+  background-color: #435c70;
+  color: aliceblue;
+}
+.form {
+  position: relative;
+  right: 300px;
+  top: 0px;
+  font-size: 2vh;
+}
+input {
+  margin-left: 170px;
+  padding-bottom: 18px;
+  width: 40%;
+  background-color: #54657d;
+  font-size: 2vh;
+  color: #ccc;
+}
+
+.stock {
+  position: relative;
+  display: inline-block;
+  left: 85px;
+  top: 29px;
+  width: 380px;
+}
+.price {
+  position: relative;
+  display: inline-block;
+  right: 59px;
+  top: 29px;
+  width: 380px;
+}
+
+textarea {
+  width: 30%;
+  height: 150px;
+  padding: 1px 2px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #54657d;
+  resize: vertical;
+  font-size: 2vh;
+  margin-left: 95px;
+  color: #ccc;
+}
+
+img {
+  position: relative;
+  bottom: 350px;
+  left: 250px;
+  width: 390px;
+}
+
+.Add {
+  width: 800px;
+  padding: 20px;
+  font-size: 3vh;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: #f5a623;
+  position: absolute;
+  left: 600px;
+  bottom: 0px;
+}
+.Add:hover {
+  background-color: #4e657a;
+  border: solid 1px #f5a623;
+}
+.image {
+  width: 700px;
+  position: fixed;
+  bottom: 100px;
+  left: 700px;
+  float: right;
+}
+form .imageUploadForm {
+  position: absolute;
+  left: 700px;
+}

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #4e657a;
+}
+
+h2 {
+  position: relative;
+  right: 300px;
+  bottom: 70px;
+  color: #f5a623;
+  font-size: 4vh;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  width: 1000px;
+  height: 800px;
+  margin: 100px 500px;
+  background-color: #435c70;
+  color: aliceblue;
+}
+.form {
+  position: relative;
+  right: 300px;
+  top: 50px;
+  font-size: 2vh;
+}
+input {
+  margin-left: 170px;
+  padding-bottom: 18px;
+  width: 40%;
+  background-color: #54657D;
+  font-size: 2vh;
+  color:#ccc;
+}
+
+.stock {
+  position: relative;
+  display: inline-block;
+  left: 85px;
+  top: 29px;
+  width: 380px;
+}
+.price {
+  position: relative;
+  display: inline-block;
+  right: 59px;
+  top: 29px;
+  width: 380px;
+}
+
+textarea {
+  width: 30%;
+  height: 150px;
+  padding: 1px 2px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #54657D;
+  resize: vertical;
+  font-size: 2vh;
+  margin-left: 95px;
+  color: #ccc;
+}
+label {
+  margin-right: 15px;
+}
+
+img {
+  position: relative;
+  bottom: 350px;
+  left: 250px;
+  width: 390px;
+}
+
+.update{
+
+  width: 800px;
+  padding: 20px;
+  font-size: 3vh;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: #f5a623;
+  position: relative;
+  bottom: 150px;
+}
+.update:hover{
+
+  background-color: #4e657a;
+  border:solid 1px #f5a623;
+
+}

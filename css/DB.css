@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1 {
+  background-color: #7294b395;
+  padding: 50px;
+  color: #f5a623;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.main {
+  padding: 40px;
+}
+body {
+  background-color: #4e657a;
+}
+
+table {
+  border: 100px double #486177;
+  background-color: #50697f;
+  position: fixed;
+  color: #fff;
+  font-size: 85%;
+  width: 60%;
+  margin-top: 200px;
+  margin-left: 350px;
+  margin-right: auto;
+  height: 50%;
+  display: block;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+thead {
+  background-color: #486177;
+}
+
+.product-name {
+  font-size: 1.75em;
+  font-weight: 600;
+  text-align: center;
+}
+
+td {
+  font-size: 1.75em;
+  width: 500px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #486177;
+}
+
+th {
+  padding: 20px;
+  font-size: 2em; 
+}
+
+.image {
+  width: 55px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.delete , #btn {
+  background-color: #f5a623;
+  position: absolute;
+  left: 800px;
+  top: 80%;
+  width: 800px;
+  font-size: 3vh;
+  color: #fff;
+}
+.delete {
+  position: absolute;
+  top: 950px;
+  left: 800px;
+}
+button:hover {
+  background-color: #4e657a;
+  color: #f5a623;
+  cursor: pointer;
+}
+
+ i.fas.fa-trash-alt {
+
+  position: relative;
+  left: 28px;
+
+}
+

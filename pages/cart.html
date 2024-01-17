@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="../css/cart.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"  crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <p class="title"></p>
+            <img class="logo" src="../images/logo2.png" />
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a class="aa" href="Home.html">Home</a></li>
+                <li><a class="aa" href="gallery.html">Gallery</a></li>
+                <li><a class="aa" href="aboutus.html">About Us</a></li>
+                <li><a class="aa" href="contactus.html">Contact</a></li>
+                <li id="dashboardBtn"><a class="aa" href="dashboard.html">DashBoard</a></li>
+                <li id="loginbtn" class="sign"><a href="login.html">Sign up</a></li>
+                <li id="logoutbtn" class="sign" style="display: none;"><a href="#" onclick="logout()">Logout</a></li>
+                <li>
+                    <a href="cart.html">
+                      <img class="cartlogo" src="../images/cart.png" alt="Description of the image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <form id="cartForm">
+                <table class="tb">
+                    <thead class="first">
+                        <th>&nbsp;</th>
+                        <th>&nbsp;</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+        <div class="totals">
+            <h2>Cart Total</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Total</th>
+                        <td>
+                            <span>EGP100000</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <button id="checkoutBtn" class="btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../scripts/cart.js"  ></script>
+
+</body>
+
+</html>

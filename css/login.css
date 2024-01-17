@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(100deg, #ffb345 0%);
+}
+
+input {
+  padding: 10px;
+  border: solid black 1px;
+  font-size: 20px;
+}
+.pw {
+  position: relative;
+}
+
+.email {
+  margin-top: 50px;
+}
+
+span {
+  font-size: vw;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.392);
+}
+
+.password {
+  font-size: 1vw;
+}
+#email {
+  width: 290px;
+  margin-bottom: 30px;
+}
+#password {
+  width: 290px;
+}
+.main {
+  float: right;
+  margin-right: 250px;
+  margin-top: 300px;
+  width: 800px;
+}
+button {
+  border: solid black 1px;
+  background-color: #ffb345;
+  font-size: 240%;
+  padding: 10px 15px;
+  inline-size: 250px;
+  border-radius: 28px;
+  opacity: 0.9;
+  cursor: pointer;
+  margin: 150px auto;
+}
+button:hover {
+  opacity: 1;
+}
+
+h2 {
+  position: absolute;
+  top: 180px;
+  left: 1300px;
+  font-size: 5vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#create {
+  position: relative;
+  left: 500px;
+  bottom: 189px;
+  border: none;
+  background: none;
+  font-size: 1.5em;
+  color: #ffb345;
+}
+
+.loginlogo img {
+  position: absolute;
+  top: 0;
+  height: 1100px;
+}
+
+/* background: aqua;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none */

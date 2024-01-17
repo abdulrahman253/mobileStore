@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Product</title>
+  <link rel="stylesheet" href="../css/addprod.css" />
+  <script type="module" src="../scripts/addprod.js"></script>
+</head>
+
+<body>
+  
+    <div class="container">
+      <div>
+        <h2>Add Product</h2>
+      </div>
+
+      <div>
+        <form class="form">
+          <div>
+            <label for="name">Product Name</label><br />
+            <input id="name" type="text" />
+          </div>
+          <br />
+          <div>
+            <label for="description">Description</label><br />
+            <textarea id="description"  rows="4"></textarea>
+          </div>
+          <label for="specs">Specifications</label><br />
+          <textarea id="specs" rows="4" ></textarea>
+          <br />
+          <div class="stock">
+            <label style="margin-left: 100px" for="stock">Stock</label>
+            <input id="stock" type="number" />
+          </div>
+          <div class="price">
+            <label style="margin-left: 100px" for="price">Price</label><br />
+            <input id="price" type="number" />
+          </div>
+          <br />
+          <div class="image">
+            <img id="uploadedImage" src="" alt="Uploaded Image">
+          </div>
+            <input class="imageUploadForm" type="file" id="image" accept="image/*" multiple onchange="displayImagePreview()">
+      </div>
+      </form>
+    </div>
+
+    <button id="btn" class="Add" type="button">Add Product</button>
+
+  </div>
+  </div>
+</body>
+
+</html>

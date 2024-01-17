@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h2>Register</h2>
+      <img class="logo" src="../images/logoreg.png" alt="" />
+      <div class="container">
+        <img class="image" src="../images/registerpic.png" alt="" />
+        <br />
+        <br />
+        <label class="firstname" for="user-name">UserName</label>
+
+        <form id="regform">
+          <input class="firstname" type="text" name="Username" />
+
+          <br />
+          <span class="ph" for="Phone">Phone</span>
+          <br />
+          <input class="phone" type="number" />
+          <br />
+          <br />
+          <span class="em">Email</span>
+          <br />
+          <input id="regemail" class="email" type="email" /><br />
+        </form>
+        <span class="pw">Password</span>
+        <div>
+          <input class="password" type="password" />
+          <br />
+          <br />
+          <span class="rp">Repeat password</span>
+          <br />
+          <input class="repeatpw" type="password" />
+          <p id="password-error" style="color:red;"></p>
+
+        </div>
+      </div>
+      <input id="register" class="btn" type="submit" value="Submit" >
+    </div>
+    <script type="module" src="../scripts/regmain.js"></script>
+
+  </body>
+</html>

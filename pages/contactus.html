@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="sendername" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="to" name="email" required>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            <input type="text" id="replyto" style="display: none;"> <br>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button class="btn" onclick = "sendMail();">Send</button>
+    </div>
+
+     <script>
+      function sendMail(){
+        (function(){
+          emailjs.init("NKpIVbyo_ChtHooQf"); // Account Public Key
+        })();
+
+        var params = {
+          sendername: document.querySelector("#sendername").value,
+          to: document.querySelector("#to").value,
+          subject: document.querySelector("#subject").value,
+          replyto: document.querySelector("#replyto").value,
+          message: document.querySelector("#message").value,
+        };
+
+        var serviceID = "service_hb8lq1e"; // Email Service ID
+        var templateID = "template_uh6e50g"; // Email Template ID
+
+        emailjs.send(serviceID, templateID, params)
+        .then( res => {
+            alert("Email sent successfully!!")
+        })
+        .catch();
+      }
+    </script>
+
+</body>
+</html>

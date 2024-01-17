@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+
+  background:  #f29c00b0 ;
+}
+h2{
+
+  position: absolute;
+  left: 910px;
+  top: 60px;
+  font-size: 5vh;
+  border-bottom: #0b0b0b solid 5px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+
+}
+
+.container {
+  border-top: 10px solid #000000;
+  border-bottom: 10px solid #010101;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  padding: 29px;
+  height: 80%;
+  width: 40%;
+  background-color: #EAEAEA;
+}
+
+form {
+  padding-bottom: 5px;
+}
+
+.firstname {
+  margin-left: 10%; 
+  margin-bottom: 5%;
+  width: 300px;
+  padding: 5px;
+  border: none;
+  outline: none;  font-size: 2vh;
+
+}
+
+
+
+.first,
+.em,
+.ph,
+.pw,
+.rp {
+  margin-left: 10%; 
+  font-size: 25px;
+  font-family:sans-serif;
+
+}
+
+.email {
+  width: 50%;
+  margin-left: 10%; 
+  margin-bottom: 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+    font-size: 2vh;
+
+}
+
+.phone[type="number"] {
+  margin-left: 10%;
+  width: 50%;
+  width: 300px;
+  padding: 5px;
+  font-size: 2vh;
+  border: none;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.password,
+.repeatpw {
+  margin-left: 10%; 
+  width: 300px;
+  padding: 5px;
+  border: none;
+  outline: none;  font-size: 2vh;
+
+}
+
+.btn {
+  position: absolute;
+  left: 810px; 
+  bottom: 150px; 
+  background-color: #090909;
+  width: 500px;
+  padding: 10px;
+  color: #fffcfc;
+  border-radius: 15px;
+}
+
+.image{
+
+  position: relative;
+  left: 300px;
+
+}
+.logo{
+
+  position: relative;
+  width: 9%;
+  margin-right: 10%;
+
+}
+.incorrect {
+  border: 2px solid rgb(235, 26, 33) !important;
+}
+.correct {
+  border: 2px solid greenyellow !important;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Product</title>
+    <link rel="stylesheet" href="../css/edit.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div>
+          <h2>Edit Product</h2>
+        </div>
+
+        <div>
+          <form class="form" id="editForm">
+            <div>
+              <label for="name">Product Name</label><br />
+              <input id="name" type="text" />
+            </div>
+            <br />
+            <div>
+              <label for="description">Description</label><br />
+              <textarea id="description" rows="5"></textarea>
+            </div>
+            <div>
+              <label for="specs">Specifications</label><br />
+              <textarea id="specs" rows="4" ></textarea>
+            </div>
+            <br />
+            <div class="stock">
+              <label style="margin-left: 100px" for="stock">Stock</label>
+              <input id="stock" type="number"/>
+            </div>
+            <div class="price">
+              <label style="margin-left: 100px" for="price">Price</label><br />
+              <input id="price" type="number"/>
+            </div>
+            <div></div>
+          </form>
+        </div>
+        <div class="image">
+          <img id="productImage" src="../images/iPhone_13.jpg" />
+        </div>
+        <div>
+          <input id="fileInput" type="file" style="display:none;">
+          <button id="uploadImageButton" type="button" onclick="document.getElementById('fileInput').click();">Upload Image</button>
+        </div>
+        <button id="update" class="update" type="button" onclick="updateProduct()">Update Now</button>
+      </div>
+    </div>
+    <script type="module" src="../scripts/edit.js"></script>
+  </body>
+</html>
